@@ -10,10 +10,10 @@ function compute() {
 
 
     // format how the result is displayed
-    document.getElementById("result").innerHTML = "If you deposit " +
-        principal + ", <br/> at an interest rate of " +
-        rate + "%.<br/> You will receive an amount of " + result +
-        ",<br/>in the year " + years_modified + ".<br/>";
+    document.getElementById("result").innerHTML = "If you deposit <mark>" +
+        principal + "</mark>, <br/> at an interest rate of <mark>" +
+        rate + "% </mark>.<br/> You will receive an amount of <mark>" + result +
+        "</mark>,<br/>in the year <mark>" + years_modified + "</mark>.<br/>";
 }
 
 function updateRate() {
