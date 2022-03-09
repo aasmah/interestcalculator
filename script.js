@@ -21,10 +21,6 @@ function updateRate() {
     document.getElementById("rate_val").innerText = rateval;
 }
 
-// <details > < summary > Click here for a sample < /summary>
-//document.getElementById("result").innerHTML = "If you deposit <mark>$" + principal + "</mark>,\<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of " + amount + ",\<br\>in the year " + year + "\<br\>" <
-//details>
-
 
 function checkAmount() {
     var principal = document.getElementById("principal").value;
